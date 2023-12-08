@@ -112,3 +112,17 @@ background-color: rgb(4, 31, 57);
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+.img_cold{
+    background-color: #dee7ff;
+    
+    }
+ #clients_section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+ }   
+ .img_laud_section{
+    position: absolute;
+    top: 176rem;
+    bottom: 0;
+ }
+
