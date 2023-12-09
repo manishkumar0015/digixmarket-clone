@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 .navbar_header{
@@ -12,6 +12,7 @@
     position: fixed;
     width: 100%;
     box-shadow: 0px 0px 7px 0px;
+    z-index:9999;
 
 }
 .btn_nav_section{
@@ -120,9 +121,45 @@ background-color: rgb(4, 31, 57);
     padding-top: 5rem;
     padding-bottom: 5rem;
  }   
- .img_laud_section{
+ .img_land_section{
     position: absolute;
-    top: 176rem;
-    bottom: 0;
+   
  }
+.footer-center_colum .mb-2{
+    letter-spacing: 5px;
+}
+.colum_section_footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.colum_section_footer .row{
+    gap: 14rem;
+}
+.info_footer ul li a:hover{
+    color: black;
+   
+}
+.info_footer ul li a{
+    color: gray;
+   
+}
+.footer_end{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid rgb(237 237 237);
+    }
+    #footer_section{
+    border-top: 1px solid rgb(237 237 237);
+}
 
+
+.heading_section_clients{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.img_clients_section{
+    position: relative;
+}
