@@ -44,7 +44,7 @@ background-color: rgb(4, 31, 57);
     gap: 5rem;
 }
 .home_section{
-    padding-top: 19rem;
+    padding-top: 10rem;
     padding-bottom: 8rem;
 }
 .heading_section{
@@ -114,7 +114,7 @@ background-color: rgb(4, 31, 57);
     padding-bottom: 5rem;
 }
 .img_cold{
-    background-color: #dee7ff;
+    background-color: rgb(240 243 255);
     
     }
  #clients_section{
@@ -124,6 +124,9 @@ background-color: rgb(4, 31, 57);
  .img_land_section{
     position: absolute;
    
+ }
+ .btn_class_section{
+    padding: 10px 27px;
  }
 .footer-center_colum .mb-2{
     letter-spacing: 5px;
@@ -153,13 +156,129 @@ background-color: rgb(4, 31, 57);
 }
 
 
-.heading_section_clients{
+.heding_section_clients{
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
 }
+.section_project{
+    
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.section_project h2{
+    
+    font-size: 3rem;
+}
+.section_project p{
+    font-size: 1.2rem;
+    color: gray;
+}
 .img_clients_section{
     position: relative;
 }
+
+.bg-custom{
+    background-color: rgb(240 243 255);
+}
+.row .col-6 h2{
+    width: 60%;
+}
+.contact_form input{
+    border: none;
+    color: gray;
+    
+}
+.text_box_contact textarea{
+    border: none;
+    width: 100%;
+}
+.contact_end{
+    display: flex;
+    gap: 9rem;
+    width: 100%;
+
+}
+.notification_contact{
+    width: 54%;
+    display: flex;
+    font-size: 12px;
+}
+.notification_contact p{
+    font-size: 13px;
+}
+.notification_contact input{
+    height: 2.2rem;
+    width: 1.7rem;
+}
+.notification_contact p{
+   padding-left: 17px;
+   color: gray;
+}
+.contact_form h1{
+    margin-bottom: 4rem;
+}
+.contact_form {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+    
+}
+
+.contact_input{
+    width: 100%;
+    gap: 50px;
+}
+.contact_section{
+    background-image: url(./img/shape-dotted-light-02.svg);
+    background-color: rgb(240 243 255);
+    padding: 5rem;
+    border-radius: 10px;
+    padding-bottom: 0px;
+
+}
+
+
+.contact_form input:focus{
+outline: none;
+ 
+}
+.contact_form::placeholder:focus{
+    color: black;
+}
+
+.text_box_contact textarea:focus{
+    outline: none;
+}
+.btn_contact{
+    width: 24%;
+    padding: 14px 14px;
+}
+.contact_secound_section{
+    padding: 4rem !important;
+}
+.contact_secound_section h2{
+    margin-bottom: 4rem;
+
+}
+.contact_text_colum35 h4{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.contact_text_colum35 p{
+    color: gray;
+    font-size: 14px;
+
+}
+.contact_text_colum35{
+    margin-bottom:1.9rem;
+}
+
+ 
