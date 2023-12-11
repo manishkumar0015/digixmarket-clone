@@ -1,3 +1,74 @@
 @media only screen and (max-width: 1024px){
-    
+   
+    .heading_section h1{
+        font-size: 2rem;
+        width: 24rem;
+    }
+    .heading_section_btn p{
+        font-size: 13px;
+    }
+    .brn_section_container h4{
+        padding: 9px 16px;
+    }
+    .brn_section_container p{
+        font-size: 15px;
+    }
+    .container_box_section h3{
+        font-size: 21px;
+
+    }
+    .container_box_section p{
+        font-size: 13px;
+
+
+    }
+    .container_box_section {
+        margin-right: 1rem !important;
+    }
+    .img_box_section img{
+        }
+    .container_box_section .img_box_section{
+        width: 40% !important;
+    }
+    .btn_column h4{
+        padding: 9px 15px;
+        width: 10rem !important;
+    }
+    .whowhere_section_heading h3{
+        font-size: 23px;
+    }
+    .row .col-6 h2{
+        width: 80%;
+    }
+    .btn_class_section{
+        padding: 13px 11px;
+        width: 124%;
+    }
+    .col-4 img{
+        display: none;
+    }
+    .contact_end{
+        gap: 0rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    .notification_contact{
+        width: 80%;
+    }
+    .btn_contact{
+        width: 36%;
+    }
+    .contact_section{
+        height: 45rem;
+        padding: 3rem;
+    }
+    .contact_form h1{
+        font-size: 2rem;
+    }
+    .contact_secound_section{
+        padding: 3rem !important;
+    }
+    .contact_text_colum35 h4{
+        font-size: 16px;
+    }
 }
