@@ -66,6 +66,12 @@
   .contact_text_colum35 h4 {
     font-size: 16px;
   }
+  .footer-center_colum p{
+    width: 16rem !important;
+  }
+  .footer-center_colum a{
+    font-size: 21px !important;
+  }
 }
 
 @media only screen and (max-width: 991px) {
