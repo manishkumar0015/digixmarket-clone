@@ -1,74 +1,237 @@
-@media only screen and (max-width: 1024px){
-   
-    .heading_section h1{
-        font-size: 2rem;
-        width: 24rem;
-    }
-    .heading_section_btn p{
-        font-size: 13px;
-    }
-    .brn_section_container h4{
-        padding: 9px 16px;
-    }
-    .brn_section_container p{
-        font-size: 15px;
-    }
-    .container_box_section h3{
-        font-size: 21px;
+@media only screen and (max-width: 1024px) {
+  .heading_section h1 {
+    font-size: 2rem;
+    width: 24rem;
+  }
+  .heading_section_btn p {
+    font-size: 13px;
+  }
+  .brn_section_container h4 {
+    padding: 9px 16px;
+  }
+  .brn_section_container p {
+    font-size: 15px;
+  }
+  .container_box_section h3 {
+    font-size: 21px;
+  }
+  .container_box_section p {
+    font-size: 13px;
+  }
+  .container_box_section {
+    margin-right: 1rem !important;
+  }
 
-    }
-    .container_box_section p{
-        font-size: 13px;
+  .container_box_section .img_box_section {
+    width: 40% !important;
+  }
+  .btn_column h4 {
+    padding: 9px 15px;
+    width: 10rem !important;
+  }
+  .whowhere_section_heading h3 {
+    font-size: 23px;
+  }
+  .row .col-6 h2 {
+    width: 80%;
+  }
+  .btn_class_section {
+    padding: 13px 11px;
+    width: 124%;
+  }
+  .col-4 img {
+    display: none;
+  }
+  .contact_end {
+    gap: 0rem;
+    width: 100%;
+    flex-direction: column;
+  }
+  .notification_contact {
+    width: 80%;
+  }
+  .btn_contact {
+    width: 36%;
+  }
+  .contact_section {
+    height: 45rem;
+    padding: 3rem;
+  }
+  .contact_form h1 {
+    font-size: 2rem;
+  }
+  .contact_secound_section {
+    padding: 3rem !important;
+  }
+  .contact_text_colum35 h4 {
+    font-size: 16px;
+  }
+}
 
+@media only screen and (max-width: 991px) {
+  .btn_nav_section i {
+    display: block;
+    position: absolute;
+    right: 55px;
+    font-size: 30px;
+  }
+  .navbar_section ul {
+    display: none;
+    background-color: white;
+    padding: 31px;
+    width: 42rem;
+    margin-top: 50px;
+    box-shadow: 0px 2px 4px -1px;
+    border-radius: 20px;
+    /* display: flex !important; */
+    flex-direction: column;
+    /* padding-left: 51px; */
+    margin-left: -8rem;
+  }
 
-    }
-    .container_box_section {
-        margin-right: 1rem !important;
-    }
-    .img_box_section img{
-        }
-    .container_box_section .img_box_section{
-        width: 40% !important;
-    }
-    .btn_column h4{
-        padding: 9px 15px;
-        width: 10rem !important;
-    }
-    .whowhere_section_heading h3{
-        font-size: 23px;
-    }
-    .row .col-6 h2{
-        width: 80%;
-    }
-    .btn_class_section{
-        padding: 13px 11px;
-        width: 124%;
-    }
-    .col-4 img{
-        display: none;
-    }
-    .contact_end{
-        gap: 0rem;
-        width: 100%;
-        flex-direction: column;
-    }
-    .notification_contact{
-        width: 80%;
-    }
-    .btn_contact{
-        width: 36%;
-    }
-    .contact_section{
-        height: 45rem;
-        padding: 3rem;
-    }
-    .contact_form h1{
-        font-size: 2rem;
-    }
-    .contact_secound_section{
-        padding: 3rem !important;
-    }
-    .contact_text_colum35 h4{
-        font-size: 16px;
-    }
+  .nav-active {
+    display: block !important;
+  }
+  li {
+    /* position: absolute; */
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 33px;
+    /* position: absolute; */
+}
+ul{
+    position: absolute;
+}
+.heading_section h1{
+  width: 18rem;
+  font-size: 2rem;
+}
+.heading_section p{
+  width: 21rem;
+}
+.heading_section_btn P{
+  width: 36rem !important;
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+  font-size: 15px;
+
+}
+.row .container_box_section{
+  width: 45% !important;
+}
+.row .container_box_section p{
+  font-size: 15px;
+}
+.container_box_section .img_box_section{
+  width: 27% !important;
+}
+.heading_section_ p{
+  width: 22rem;
+}
+.whowhere_section_heading p{
+  width: 22rem;
+}
+.img_clients_section .img_land_section{
+  width: 25%;
+  top: 99px;
+}
+.img_clients_section .img_box{
+  position: relative;
+  left: 34rem;
+  top: 17rem;
+}
+.heding_section_clients h2{
+  font-size: 1.5rem;
+  position: absolute;
+  top: 23px;
+  right: 8rem;
+
+}
+.heding_section_clients p{
+  position: relative;
+  top: 4rem;
+  font-size: 16px;
+  width: 33rem;
+}
+.section_project h2{
+  font-size: 26px;
+  padding-top: 35px;
+  text-align: center;
+}
+.row .col-6 h2{
+  width: 100%;
+}
+
+.row .col-6 {
+  width: 53%;
+}
+.row .col-6 p{
+  width: 27rem;
+}
+.row .col-4 {
+  width: 14.33%;
+}
+.btn_class_section{
+  padding: 13px 11px;
+  width: 177%;
+}
+.contact_input{
+  flex-direction: column;
+  gap: 0px; 
+  
+}
+.contact_input input{
+  width: 100%!important;
+  
+}
+.notification_contact input{
+  height: 3.2rem;
+  width: 2.7rem;
+}
+.contact_form{
+  width: 25rem !important;
+  padding: 2rem !important;
+}
+.contact_section{
+  height: 57rem;
+    padding: 2rem;
+}
+.btn_contact{
+  width: 52%;
+}
+.contact_secound_section{
+  padding-left: 4rem !important;
+}
+.contact_secound_section h2{
+  width:6rem;
+}
+.contact_text_colum35{
+  width: 12rem !important;
+}
+.colum_section_footer .row{
+  flex-direction: column;
+  height: 32rem;
+  gap: 0rem;
+}
+.footer_main_section{
+  width: 100%!important;
+}
+.footer-center_colum{
+  width: 16rem;
+  margin-bottom: 2rem;
+
+}
+.footer-center_colum a{
+  font-size: 21px !important;
+}
+.section_colum35{
+  gap: 7rem!important;
+}
+.footer_containt .info_footer{
+  width: 11rem !important;
+}
+.footer_containt .info_footer ul li{
+  padding-bottom: 4px;
+  margin-bottom: 0.5rem !important;
+}
 }
