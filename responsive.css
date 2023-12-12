@@ -241,3 +241,129 @@ ul{
   margin-bottom: 0.5rem !important;
 }
 }
+
+@media only screen and (max-width: 768px){
+ .heading_section_btn p{
+  width: 22rem !important;
+  margin: 26px !important;
+ }
+ .row .container_box_section{
+  width: 100% !important;
+  height: 16rem;
+ }
+ #unique .container .row{
+  flex-direction: column;
+ }
+ .unique_img_sectio{
+  display: none;
+ }
+ .row .heading_section_{
+  width: 100% !important;
+ }
+ .heading_section_ h2{
+  font-size: 31px;
+ }
+ 
+ .heading_section_ p{
+  width: 24rem;
+
+ }
+ .whowhere_img_section{
+  display: none
+ }
+ .row .whowhere_section_heading{
+  width: 100% !important;
+ }
+ 
+ .row .whowhere_section_heading h3{
+  font-size: 26px;
+ }
+ .row .whowhere_section_heading p{
+  width: 23rem;
+ }
+ .img_clients_section .img_land_section{
+  width: 38%;
+  top: 106px;
+ }
+ .img_clients_section .img_box{
+  position: relative;
+  left: 16rem;
+  top: 30rem;
+
+ }
+ .heading_section_client1 p{
+  width: 23rem;
+ }
+ .heading_section_client1 h2{
+  right: 3rem;
+  font-size: 25px;
+ }
+ .img_cold{
+  height: 29rem !important;
+
+ }
+ .section_project p{
+  width: 8rem;
+ }
+ .row .col-6{
+  width: 100%;
+ }
+ .row .col-6 h2{
+  font-size: 26px;
+ }
+ .row .col-6 p{
+  width: 17rem;
+  font-size: 16px;
+ }
+ .row .col-2{
+  display: flex;
+    justify-content: flex-start !important;
+    width: 12rem;
+ }
+ .contact_form{
+  width: 21rem !important;
+ }
+ .contact_section .row{
+  flex-direction: column-reverse;
+ }
+ .contact_section{
+  height: 86rem;
+ }
+ .contact_secound_section{
+  width: 100%;
+  padding: 0px !important;
+  padding-left: 2rem !important;
+ }
+ .contact_text_colum35{
+  width: 16rem !important;
+ }
+ .notification_contact{
+  width: 90%;
+ }
+ .btn_contact{
+  width: 63%;
+ }
+ .info_footer1{
+  width: 50%!important;
+ }
+ .colum_section_footer .row{
+  height: 29rem;
+  gap: 1rem;
+ }
+ .section_colum35{
+  gap: 0px !important;
+ }
+ .footer_containt{
+  width: 12rem !important;
+ }
+ .btn_nav_section i{
+  right: 15px;
+ }
+ .navbar_section ul{
+  width: 24rem;
+ }
+ .home_section .container{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+ }
+}

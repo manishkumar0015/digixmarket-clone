@@ -154,6 +154,9 @@ background-color: rgb(4, 31, 57);
     #footer_section{
     border-top: 1px solid rgb(237 237 237);
 }
+.unique_img_sectio{
+    width: 50%;
+}
 
 
 .heding_section_clients{
